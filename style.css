@@ -1,0 +1,627 @@
+
+    /* ***********************************header start****************************** */
+
+header{
+    height: 50px;
+}
+nav ul{
+    padding: 0.5rem;
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+.logo-img{
+    width: 18%;
+    padding-left: 8%;
+}
+.logo-img img{
+    width: 250px;
+}
+.map-img{
+    width: 50%;
+    text-align: center;
+    margin-top: 5px;
+}
+.Search-img{
+    padding-left: 3%;
+    width: 23%;
+    margin-top: 5px;
+}
+.Search-img img{
+    height: 15px;
+}
+button{
+    background-color:rgb(168, 98, 98);   
+}
+.Login-btn{
+    width: 80px;
+    border-radius: 6px;
+    background-color:rgb(250, 245, 245);
+}
+button img{
+    width: 10px;
+    padding-right: 5px;
+}
+
+    /* *******************************************header end*********************************** */
+
+    /* ********************************************benar start*********************************** */
+
+.benar-section{
+    height: 400px;
+    background-color: #FFAE00;
+    display: flex;
+}
+.benar-1{
+    width: 50%;
+    height: 320px;
+    margin-top: 60px;
+    margin-left: 115px;
+}
+
+.heading{
+    font-size: 65px;
+    height: 100px;
+}
+.benar-heading{
+    padding: 5px;
+}
+.benar-2{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+.benar-2 img {
+    width: 350px;
+    height: 300px;
+    margin-top: 99px;
+}
+.div-btn{
+    background-color:white;
+    width: 450px;
+    margin-top: 2rem;
+    padding: 1.5rem;
+    border-radius: 10px;
+}
+.benar-icon{
+    justify-content: space-between;
+}
+button{
+    width: 100px;
+    height: 30px; 
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+    background-color: rgb(241, 218, 204);
+}
+.pickup-btn{
+    background-color: white;
+}
+.pickup-btn{
+    color: black;
+}
+.map-icon{
+    width: 10px;
+    margin-top: 5px;
+}
+.benar-section input{
+    background-color: #f7f2f2;
+    height: 25px;
+    width: 320px;
+    border: none;
+}
+.Find-Food{
+    color: white;
+    font-size: 11px;
+    background-color: #F17228;
+}
+
+    /* *******************************************benar end*****************************************/
+
+/* *************************************************section-card start******************************** */
+
+
+.section-card figure img{
+    width: 270px;
+    height: 200px;
+    border-radius: 10px;
+}
+.section-card ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.section-card-li{
+    width: 270px;
+    margin: 5px;
+}
+.figcaption-card{
+    width: 120px;
+    background-color:#f7d1bc;
+    padding: 5px;
+    margin-top: 5px;
+    color: #F17228;
+}
+
+
+/* *******************************************************section-card end**************************************** */
+
+/* ******************************************************sec-card-1 start****************************************** */
+
+.sec-card-1{ 
+    display: flex;
+    justify-content: center; 
+}
+.sec-card-1 figure img{
+    width: 150px;
+    height: 150px;
+}
+.sec-card-1 ul{
+    display: flex;
+    list-style: none;
+}
+.sec-card-1 figure{
+    text-align: center;
+}
+.fig-h1{
+    text-align: center;
+    padding-top: 2rem;
+    color:  #F17228;
+}
+.fig{
+    font-weight: bolder;
+}
+.fig-cap{
+    font-size: 10px;
+}
+
+/* ***************************************************.sec-card-1 end************************************************** */
+
+
+/* *****************************************************popular items start***************************************** */
+
+
+.popular-fig-h1{
+    text-align: center;
+}
+.popular-items{ 
+    display: flex;
+    justify-content: center;
+}
+.popular-items ul{
+    display: flex; 
+    list-style: none;
+}
+.sec-fig-li {
+    width: 220px;
+}
+.popular-img{
+    width: 200px;
+}
+.div-erow{
+display: flex;
+justify-content: center;
+padding-top: 10px;
+right: 40px;
+border-radius: 30px;
+position: relative;
+top: 120px;
+width: 40px;
+height: 30px;
+background-color: #FFAE00;
+}
+.erow{
+    width: 20px;
+    height: 20px;
+    background-color: #FFAE00;
+}
+
+.fig-2{
+    font-size: 13px;
+    font-weight: bolder;
+}
+.fig-cap-2-map{
+    text-align: left;
+    color: orange;
+}
+.fig-btn{
+    height: 30px;
+    width: 200px;
+    padding-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #F17228;
+}
+
+/* ************************************************popular items end************************************************ */
+
+/* **************************************************featured section start********************************************* */
+
+.Featured-fig{
+    text-align: center;
+}
+
+.featured-section{
+    display: flex;
+    justify-content: center;
+}
+.featured-section figure img{
+    width: 260px;
+    height: 290px;
+}
+.featured-section ul{
+    display: flex;
+    list-style: none;
+}
+.featured-li{
+    margin: 0 auto;
+}
+.featured-btn{
+    text-align: center;
+}
+.featured-btn button img{
+    width: 7px;
+}
+.featured-btn button{
+    color: white;
+    background-color:orange;
+}
+.sec-fig-img{
+    width: 290px;
+    height: 290px;
+    margin: 0 auto;
+}
+
+
+/* ****************************************************featured section end********************************************** */
+
+
+/* *******************************************************search-food-section start****************************************** */
+
+.search-food-section{
+    background-color: #FEFAF1;
+    height: 300px;
+    margin-top: 3rem;
+}
+
+.search-food-section ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+   
+}
+
+.search-food-section figure img{
+    width: 100px;
+}
+.search-foof-li{
+    width: 150px;
+    padding: 2px;
+}
+.search-food-section figure figcaption{
+    text-align: center;
+    font-size: 12px;
+    width: 100px;
+}
+.search-food-section-2 ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 950px;
+    margin-left: 12rem;
+    background-color: #FEFAF1;
+}
+
+
+
+
+/* **********************************************************search-food-section end************************************** */
+
+.features-section{
+    position: relative;
+    background-color: #FEEFD0;
+    height: 220px;
+    padding-top: 5rem;
+}
+
+.features-section div ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding-left: 0px;
+}
+.features-section div{
+    width: 700px;
+    position: relative;
+    left: 20rem;
+}
+.features-li-img{
+    width: 170px;
+    display: flex;
+    justify-content: center;
+}
+.features-li-text{
+    align-content: center;
+    color:#FFAE00;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+/* **********************************************************install app start********************************************************* */
+
+.install-app{
+    display: flex;
+}
+.install-app-img{
+    width: 100%;
+    background-color: #FFAE00;
+}
+
+.app-2{
+    width: 50%;
+    position: absolute;
+    right: 10px;
+}
+.app-1 img{
+    position: absolute;
+    height: 350px;
+    left: 11rem;
+}
+.app-2-figcap{
+    width: 300px;
+    text-align: center;
+    font-size: 40px;
+}
+.app-2-figcap h1{
+    margin-bottom: 10px;
+}
+.app-2-figcap-2{
+    margin-left: 2rem;
+    width: 300px;
+}
+.google-img img{
+    width: 300px;
+    height: 100px;
+    margin-left: 0px;
+
+}
+
+/* **************************************************************install app end*********************************************************** */
+
+
+/* *************************************************************** sendwiches-section start************************************************ */
+
+.sendwiches-section{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 350px;
+    top: 4rem;
+}
+.sendwiches-text{
+    width: 27%;
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+.sendwiches-text h1{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.sendwiches-img{
+    width: 50%;
+}
+.sendwiches-img img{
+    width: 100%;
+    height: 100%;
+}
+.sendwiches-text button{
+    position: absolute;
+    left: 11rem;
+    bottom: 2rem;
+    width: 300px;
+    height: 40px;
+    background-color: #FFAE00;
+    color: white;
+}
+.color{
+    color: #FFAE00;
+}
+
+
+/* ****************************************************************sendwiches-section end**************************************************** */
+
+
+/* ****************************************************************sendwiches-section-2 start**************************************************** */
+
+
+.sendwiches-section-2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 350px;
+    top: 8rem;
+}
+.sendwiches-text-2{
+    width: 27%;
+    background-color: white;
+    padding-left: 2rem;
+}
+.sendwiches-text-2 h1{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.sendwiches-img-2{
+    width: 50%;
+}
+.sendwiches-img-2 img{
+    width: 100%;
+    height: 100%;
+}
+.sendwiches-text-2 button{
+    position: absolute;
+    right: 11.5rem;
+    bottom: 2rem;
+    width: 300px;
+    height: 40px;
+    background-color: #FFAE00;
+    color: white;
+}
+
+
+
+/* ****************************************************************sendwiches-section-2 end**************************************************** */
+
+
+
+
+/* *************************************************************** sendwiches-section 3 start************************************************ */
+
+.sendwiches-section-3{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 350px;
+    top: 12rem;
+}
+.sendwiches-text-3{
+    width: 27%;
+    background-color: white;
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+.sendwiches-text-3 h1{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.sendwiches-img-3{
+    width: 50%;
+    background-color: white;
+}
+.sendwiches-img-3 img{
+    width: 100%;
+    height: 100%;
+}
+.sendwiches-text-3 button{
+    position: absolute;
+    left: 11rem;
+    bottom: 2rem;
+    width: 300px;
+    height: 40px;
+    background-color: #FFAE00;
+    color: white;
+}
+.color{
+    color: #FFAE00;
+}
+.erow-img{
+    height: 10px;
+}
+
+
+/* ****************************************************************sendwiches-section 3 end**************************************************** */
+
+
+
+/* ****************************************************************last img start******************************************************** */
+
+
+.last-secton{
+    position: relative;
+    top: 16rem;
+
+}
+.div-text {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: #f7f2f2;
+}
+.btn{
+    position: absolute;
+    width: 200px;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #F17228;
+    color: #f7f2f2;
+}
+.btn img{
+    height: 10px;
+}
+
+.footer-section{
+    position: relative;
+    top: 15.5rem;
+    padding-top: 5rem;
+    background-color:black;
+    color: #f7f2f2;
+}
+.footer-section h3{
+    margin-left: 5rem;
+}
+.footer-section ul{
+    display: flex;
+    list-style: none;
+}
+.footer-section figure{
+    width: 150px;
+    height: 150px;
+    font-size: 15px;
+}
+.footer-section figure li{
+    padding-top: 8px;
+}
+.footer-img-fig {
+    width: 330px;
+}
+.Follow-text{
+    font-weight: bold;
+    font-size: 20px;
+}
+.footer-img{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.footer-div{
+    display: flex;
+    margin-top: 15px;
+}
+.input-span{
+    height: 27px;
+    width: 200px;
+    background-color:rgb(63, 59, 59);
+    margin-right: 5px;
+    padding-top: 4px;
+    border-radius: 5px;
+    color: #f7f2f2;
+}
+.input-span input{
+    background-color:rgb(63, 59, 59);
+    border: none;
+    padding-top: 5px;
+}
+.footer-input-img{
+    width: 15px;
+    padding-left: 5px;
+}
+.footer-btn{
+    padding: 8px;
+    background-color: #FFAE00;
+    font-weight: bold;
+}
+.footer-last{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* ****************************************************************last img end******************************************************** */
